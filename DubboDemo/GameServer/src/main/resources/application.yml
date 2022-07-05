@@ -1,0 +1,15 @@
+server:
+  port: 8086
+
+dubbo:
+  application:
+    name: SayConsumer
+    owner: pdool
+    qos:
+      port: 55555
+      enable: true
+      accept:
+        foreign:
+          ip: false
+  register:
+    address: N/A

@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: sayProvider
+    owner: pdool
+    qos:
+      port: 55555
+      enable: true
+      accept:
+        foreign:
+          ip: false
+  monitor:
+    protocol: registry
+  registry:
+    address: N/A
+  protocol:
+    name: dubbo
+    port: 20880
+ 
